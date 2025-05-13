@@ -5,9 +5,7 @@ import re
 import os
 from dotenv import load_dotenv
 
-# Carrega variáveis do arquivo .env
 load_dotenv()
-
 EMAIL = os.getenv("GMAIL_USER")
 PASSWORD = os.getenv("GMAIL_PASSWORD")
 SERVER = 'imap.gmail.com'
